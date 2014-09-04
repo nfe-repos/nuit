@@ -1,0 +1,106 @@
+/**
+ * m.ui.Combox
+ * @author lifayu@meifuzhi.com
+ */
+.m-combox-wrap{
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	vertical-align:middle;
+	font-size:12px;
+	position:relative;
+}
+.m-combox-wrap-inner{
+	border:1px solid #aaa;
+	border-right-color:#ccc;
+	border-bottom-color:#ccc;
+	height:24px;
+	line-height:24px;
+	cursor: pointer;
+	background:#fff;
+}
+.m-combox-arrow{
+	float:right;
+	height:16px;
+	width:16px;
+	iborder: 1px solid #eee;
+	background:url(images/m_combox_arrow.png) left 2px no-repeat;
+	margin:3px 3px 3px 1px;
+	color:#505050;
+	font-size:10px;
+	line-height:16px;
+	text-align:center;
+}
+.m-combox-arrow-open{
+	background-position:-16px 2px;
+}
+.m-combox-text{
+	overflow:hidden;
+	padding:0 2px;
+	height:24px;
+	line-height:24px;
+}
+.m-combox-text input{
+	margin:0;
+	padding:0;
+	border:none;
+	background: none;
+	width:100%;
+	outline: none;
+}
+.m-combox-list{
+	position:absolute;
+	top:25px;
+	width:100%;
+	display:none;
+	background:#fff;
+}
+.m-combox-list-inner{
+	margin:0;
+	padding:0;
+	list-style:none;
+	padding:1px;
+	border:1px solid #aaa;
+	border-top-color:#ccc;
+	max-height:240px;
+	background:#fff;
+	overflow-y: auto;
+	box-shadow:1px 1px 3px #ddd;
+}
+.m-combox-list ul{
+	padding:0;margin:0;
+}
+.m-combox-list ul li,.m-combox-list dd,.m-combox-list dt{
+	padding:0 3px;
+	height:24px;
+	line-height:24px;
+	color:#636363;
+	list-style:none;
+	margin:0;
+}
+.m-combox-list ul li:hover,.m-combox-list dd:hover{
+	background:#f6f6f6;
+	color:#58c3dc;
+}
+.m-combox-list ul li.m-combox-li-selected{
+	background:#F2f2f2;
+	color:#58c3dc;
+}
+.m-combox-list ul li.split, .m-combox-list ul li.split:hover{
+	height:5px;
+	line-height:5px;
+	overflow:hidden;
+	background:url(images/dot.png) left center repeat-x;
+}
+.m-combox-list dd{
+	padding-left:12px;
+}
+.m-combox-list dt{
+	color:#505050;
+	background:#aaa;
+	font-weight: bolder;
+	border:1px solid #b3b3b3;
+	border-top:none;
+	border-bottom:none;
+	height:23px;
+}

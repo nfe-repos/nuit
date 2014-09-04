@@ -1,0 +1,117 @@
+
+
+.m-slide-slide{
+	border:1px solid #ddd;
+	padding:5px 0;
+	overflow:hidden;
+	height:110px;
+	position: relative;
+}
+.m-slide-pre,.m-slide-next{
+	width:38px;
+	float:left;
+	margin-top:50px;
+}
+.m-slide-pre a, .m-slide-next a{
+	float:left;
+	height:40px;
+	margin-top:-20px;
+	text-indent:-9999em;
+	width:40px;
+	background:red;
+}
+.m-slide-next{
+	float:right;
+}
+.m-slide-container{
+	overflow:hidden !important;
+	margin:0 40px;
+}
+.m-slide-list{
+	width:99999px;
+}
+.m-slide-list li{
+	float:left;
+	display:inline;
+	height:100px;
+	width:100px;
+	border:1px solid #ddd;
+	position:relative;
+}
+.m-slide-list li div{
+	position:absolute;
+	background:#666;
+	opacity:.7;
+	filter:alpha(opacity:70);
+	top:200px;
+	left:0;
+	color:#fff;
+	text-align:center;
+	padding:3px 0px;
+	width:100px;
+}
+.m-slide-slide a.disabled{
+	background:#ddd;
+	cursor:default !important;
+}
+.m-slide-page{
+	clear:both;
+	text-align:center;
+}
+.m-slide-page li{
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+}
+/******************* scrollSlide *******************/
+.m-scrollslide-wrap,.m-scrollslide-innerwrap,.m-pageslide-wrap,.m-pageslide-innerwrap{
+	position:relative;
+}
+.m-scrollslide-list,.m-pageslide-list{
+	width:99999px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.m-scrollslide-list li{
+	float:left;
+	display:inline;
+}
+.m-pageslide-list li{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+}
+.m-scrollslide-prev,.m-scrollslide-next,.m-scrollslide-up,.m-scrollslide-down{
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+}
+.m-pageslide-page{
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	z-index:10;
+}
+.m-pageslide-page li{
+	float:left;
+	display:inline;
+	width:20px;
+	height:20px;
+	background:#eee;
+	background:rgba(238,238,238,.6);
+	text-align:center;
+	margin-left:5px;
+	color:#333;
+	cursor:pointer;
+	border-radius:10px;
+	box-shadow:1px 1px 2px #ddd inset,-1px -1px 2px #ddd inset;
+}
+.m-pageslide-page li.cur{
+	background:#f66;
+	color:#fff;
+	box-shadow:1px 1px 2px #f99 inset,-1px -1px 2px #f99 inset;
+}

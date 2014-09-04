@@ -1,0 +1,29 @@
+{
+    "name": "lazyload",
+    "version": "0.1.0",
+    "root": "#",
+    "description": "",
+    "homepage": "",
+    "author": "lifayu@meifuzhi.com",
+    "repository": {
+        "type": "svn",
+        "url": "http://192.168.88.88:8010/svn/spm/dev/lazyload"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "license": "",
+    "dependencies": {
+		"jquery":"0.1.0"
+    },
+    "tests": [],
+    "output": {
+		"lazyload.js":"."
+    },
+	"deploy":{
+		"path":"../../dist"
+	},
+	"sources":[
+		"http://dev00.meifuzhi.net:8836/nuit"
+	]
+}

@@ -1,0 +1,68 @@
+
+
+.m-emotion-wrap{
+	position:absolute;
+	left:0;
+	top:0;
+	background:#fff;
+	z-index: 9999;
+	padding:8px;
+	border:1px solid #ccc;
+	border-top:2px solid #aaa;
+	margin-top:10px;
+	width:364px;
+	box-shadow:1px 1px 2px #ddd;
+}
+.m-emotion-arrow-i,.m-emotion-arrow-o{
+	position: absolute;
+	top:-12px;
+	left:10px;
+	width:0;height:0;
+	line-height:0;
+	font-size:0;
+	border:6px solid transparent;
+	border-bottom-color:#fff;
+}
+.m-emotion-arrow-o{
+	top:-13px;
+	border-bottom-color:#aaa;
+}
+.m-emotion-arrow-i{
+	
+}
+.m-emotion-cnt{
+	background:#fff;	
+}
+.m-emotion-cnt table{
+	border-collapse:separate;
+}
+.m-emotion-cnt td{
+	padding:3px;
+	border:1px solid #fff;
+	height:24px;
+}
+.m-emotion-cnt td.m-emotion-hover{
+	border:1px solid #627E62;
+}
+.m-emotion-cnt table img{
+    background:url(http://image.iwanmei.com/smiley/aface.png) no-repeat left top;
+cursor:pointer;width:24px;height:24px;display:inline-block;zoom:1;
+}
+.m-emotion-preview{
+	border:1px solid #aaa;
+	background:#fff;
+	position:absolute;
+	top:3px;
+	display:none;
+}
+.m-emotion-preview-img{
+	padding:3px 15px;
+	height:24px;
+	width:24px;
+}
+.m-emotion-preview-name{
+	text-align:center;
+	background:#f2f2f2;
+	font-size:12px;
+	line-height:18px;
+}
